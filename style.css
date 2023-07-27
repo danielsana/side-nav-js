@@ -11,6 +11,7 @@ nav{
     height: 80px;
     width: 100%;
     background: #34495e;
+    position: fixed;
 }
 label.logo{
     font-size: 35px;
@@ -48,6 +49,11 @@ nav #icon{
     margin: 25px 40px 0px 0px;
     cursor: pointer;
     display: none;
+}
+section{
+    background: url(samantha-gades-BlIhVfXbi9s-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
 }
 @media (max-width: 1048px) {
     label.logo{
